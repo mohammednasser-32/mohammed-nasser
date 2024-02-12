@@ -1,0 +1,46 @@
+.company-icon {
+    width: 45x;
+    height: 45px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.exp-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.exp-location {
+    font-size: 0.9rem;
+}
+
+.icon {
+    color: var(--red);
+    margin-right: 5px;
+}
+
+.time-slot-position {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.notes {
+    margin-left: 20px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.time-slot-dates {
+    font-size: 0.77rem;
+    margin-top: 3px;
+}
+
+.time-slot-header {
+    margin-bottom: 10px;
+}
+
+.astress {
+    color: var(--red);
+    font-size: 0.9rem;
+}

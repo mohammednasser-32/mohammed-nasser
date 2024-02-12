@@ -1,0 +1,13 @@
+.comic-image {
+    max-width: 60%;
+    margin-bottom: 80px;
+}
+
+.body-text {
+    margin-bottom: 30px;
+
+    a {
+        text-decoration: none !important;
+        color: var(--red) !important;
+    }
+}

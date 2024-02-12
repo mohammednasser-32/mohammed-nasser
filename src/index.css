@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282540 !important;
+  font-family: 'Space Mono' !important;
+  color: white !important;
+}
+
+:root {
+  --red: #d93655;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Space Mono' !important;
 }
+
+.f-20 {
+  font-size: 20px;
+}
+iframe#webpack-dev-server-client-overlay{display:none!important}

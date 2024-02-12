@@ -1,0 +1,19 @@
+.me-image {
+    width: 100%;
+    height: auto;
+    border-color: var(--red);
+    border: 5px solid var(--red);
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.tech-container {
+    background-color: var(--red);
+    margin-right: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
