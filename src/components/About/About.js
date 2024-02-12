@@ -10,7 +10,7 @@ function About() {
                 including requirements gathering, analysis, design, development, testing, and support."
 
   const comicInfo = <div>{"Beside the coding life, I am also a cartoonist with a published comic book and over 260,000 Facebook followers. \
-                     You can check my art portfolio "}<a href="https://www.nasserjunior.com" target="_blank">here</a></div>
+                     You can check my art portfolio "}<a href="https://www.nasserjunior.com" rel="noreferrer" target="_blank">here</a></div>
 
   return (
     <Container>
@@ -27,8 +27,8 @@ function About() {
          </div>
          <div className="section">
             <h3>Contact</h3>
-            <div><i className="bi bi-envelope-fill"></i>: <a href="mailto:contact@nasserjunior.com" target="_blank">contact@nasserjunior.com</a></div>
-            <div><i className="bi bi-linkedin"></i>: <a href="https://www.linkedin.com/in/nasserjr/" target="_blank">linkedin.com/in/nasserjr</a></div>
+            <div><i className="bi bi-envelope-fill"></i>: <a href="mailto:contact@nasserjunior.com" rel="noreferrer" target="_blank">contact@nasserjunior.com</a></div>
+            <div><i className="bi bi-linkedin"></i>: <a href="https://www.linkedin.com/in/nasserjr/" rel="noreferrer" target="_blank">linkedin.com/in/nasserjr</a></div>
          </div>
          <div className="section">
             <h3>Tech Stack</h3>
