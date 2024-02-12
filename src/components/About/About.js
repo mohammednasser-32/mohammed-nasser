@@ -4,13 +4,13 @@ import techs from '../../assets/techs';
 import './About.css';
 
 function About() {
-  const info = "Hey! I am Mohammed Nasser, an experienced software engineer holding a Bachelor's Degree in Computer and Communication from the Faculty of Engineering, Alexandria University. \
-                With five years of industry experience, I have a proven track record of delivering high-quality software solutions using various technologies, \
-                with a particular passion for Ruby on Rails. I have hands-on experience in all stages of software development, \
-                including requirements gathering, analysis, design, development, testing, and support."
+  const info = "Hey! I am Mohammed Nasser, an experienced software engineer holding a Bachelor's Degree in Computer and Communication from the Faculty of Engineering, Alexandria University. "+
+                "With five years of industry experience, I have a proven track record of delivering high-quality software solutions using various technologies, "+
+                "with a particular passion for Ruby on Rails. I have hands-on experience in all stages of software development, "+
+                "including requirements gathering, analysis, design, development, testing, and support."
 
-  const comicInfo = <div>{"Beside the coding life, I am also a cartoonist with a published comic book and over 260,000 Facebook followers. \
-                     You can check my art portfolio "}<a href="https://www.nasserjunior.com" rel="noreferrer" target="_blank">here</a></div>
+  const comicInfo = <div>{"Beside the coding life, I am also a cartoonist with a published comic book and over 260,000 Facebook followers. "+
+                     "You can check my art portfolio "}<a href="https://www.nasserjunior.com" rel="noreferrer" target="_blank">here</a></div>
 
   return (
     <Container>
