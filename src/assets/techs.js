@@ -6,7 +6,8 @@ export const techs = [
     'SQL',
     'MongoDB',
     'Elixer',
-    'JQuery'
+    'JQuery',
+    'Coffeescript'
 ];
 
 export default techs;

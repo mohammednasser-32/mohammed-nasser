@@ -11,10 +11,12 @@ export const experience = [
                 end: null,
                 jobTitle: "Senior Software Engineer",
                 details: [
-                    "Designed and created a tax calculator using a PDF form parser with Ruby on Rails and ReactJs, resulting in over 30K euro monthly savings by eliminating errors and reducing data entry hours.",
-                    "Played a significant role in upgrading the system's frontend from Embedded Ruby to ReactJs, providing stakeholders with a more flexible and dynamic user experience.",
+                    "Integrated Devengo APIs, reducing the cost of advance payments service from 0.66€ to 0.15€ per transaction.",
+                    "Designed and implemented a service to calculate and recover money paid in advance to employees increasing the recovered funds by over 40K € monthly.",
+                    "Developed a tax calculator using Ruby and React resulting in over 30K € monthly savings.",
+                    "Implemented a PDF form parser service to eﬃciently collect the worker's data and reduce data entry time.",
                     "Mentored new employees to ensure they were equipped with the necessary skills and knowledge.",
-                    "Collaborated with product managers to define strategic initiatives and streamline development processes to ensure on-time projects delivery."
+                    "Collaborated with product managers to streamline development processes to ensure on-time projects delivery."
                 ]
             },
             {
@@ -22,10 +24,10 @@ export const experience = [
                 end: "08/2022",
                 jobTitle: "Software Engineer",
                 details: [
-                    "As a member of Spain Core team, I was responsible for improving and integrating new features using Ruby on Rails and ReactJs into the admin tools used for managing worker compensation and legal obligations.",
-                    "Participated in a support rotation, whereby I addressed errors encountered by stakeholders providing timely and effective solutions.",
-                    "Collaborated closely with stakeholders to identify and implement permanent solutions for issues and incorporate missing features, resulting in a 60% reduction in support tickets.",
-                    "Communicated with cross-functional teams to ensure the orchestration of services and seamless delivery of new projects."
+                    "Maintained and optimized internal tools for managing worker payments and contracts, resulting in faster processing of thousands of sensitive information monthly.",
+                    "Spearheaded the migration of the system's frontend from Embedded Ruby to React, providing stakeholders with a more ﬂexible user experience.",
+                    "Used analytical tools like Watchdog, Rollbar and AWS CloudWatch to spot areas of improvement, optimize performance and eliminate errors.",
+                    "Collaborated with stakeholders to identify and implement permanent solutions for issues and incorporate missing features, resulting in a 60% reduction in support tickets in 1 year."
                 ]
             }
         ]
@@ -43,8 +45,8 @@ export const experience = [
                 jobTitle: "Software Engineer",
                 details: [
                     "Contributed in integrating Stripe payments in a health management system using Ruby on Rails.",
-                    "Developed test coverage using Rspec for the system to maintain and safely extend the system's legacy code.",
                     "Played a key role in migrating the system's frontend from Angular 1 to Reactjs.",
+                    "Developed test coverage for the system's legacy code using Rspec to maintain and safely extend the code base.",
                     "Boosted the performance of a survey management system by discarding over 500 redundant database queries."
                 ]
             }
