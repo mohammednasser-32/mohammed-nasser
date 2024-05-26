@@ -1,7 +1,32 @@
+.info-outer-container {
+    height: 80vh;
+
+    .window-header {
+        background-color: rgb(213, 213, 213);
+        height: 30px;
+        text-align: right;
+        cursor: grabbing;
+
+        .window-title {
+            margin-left: 5px;
+            color: black;
+        }
+
+        .close-icon {
+            cursor: pointer !important;
+        }
+    }
+}
+
 .intro-container {
     height: calc(100vh - 200px);
     font-size: 50px;
-    text-shadow: 0px 0px 6px white;
+    text-shadow: 0px 0px 6px rgb(187, 187, 187);
+    border: 2px solid rgb(213, 213, 213);
+    height: fit-content;
+    padding: 50px !important;
+    background-color: rgba(0, 0, 0, 0.352);
+    max-width: 100% !important;
 
     .name {
         font-size: 90px;
@@ -22,6 +47,7 @@
 @media only screen and (max-width: 600px) {
     .intro-container {
         font-size: 20px;
+        padding: 20px !important;
 
         .name {
             font-size: 30px;
