@@ -28,6 +28,7 @@ function About() {
          <div className="section">
             <h3>Contact</h3>
             <div><i className="bi bi-envelope-fill"></i>: <a href="mailto:contact@nasserjunior.com" rel="noreferrer" target="_blank">contact@nasserjunior.com</a></div>
+            <div><i className="bi bi-github"></i>: <a href="https://github.com/mohammednasser-32" rel="noreferrer" target="_blank">github.com/mohammednasser-32</a></div>
             <div><i className="bi bi-linkedin"></i>: <a href="https://www.linkedin.com/in/nasserjr/" rel="noreferrer" target="_blank">linkedin.com/in/nasserjr</a></div>
          </div>
          <div className="section">
