@@ -14,7 +14,7 @@ function Comics() {
         <div>Drawing comics allows me to express my thoughts, and as a developer, I think a lot about coding!</div>
         so here are some of my tech-themed comic.
       </div>
-      {targetImages.map((image) => (
+      {targetImages.reverse().map((image) => (
         <div>
           <div className='d-flex align-items-center justify-content-center'>
             <Image className="comic-image" src={image} />
