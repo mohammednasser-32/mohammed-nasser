@@ -11,12 +11,12 @@ export const experience = [
                 end: null,
                 jobTitle: "Senior Software Engineer",
                 details: [
-                    "Integrated Devengo APIs, reducing the cost of advance payments service from 0.66€ to 0.15€ per transaction.",
-                    "Designed and implemented a service to calculate and recover money paid in advance to employees increasing the recovered funds by over 40K € monthly.",
-                    "Developed a tax calculator using Ruby and React resulting in over 30K € monthly savings.",
-                    "Implemented a PDF form parser service to eﬃciently collect the worker's data and reduce data entry time.",
-                    "Mentored new employees to ensure they were equipped with the necessary skills and knowledge.",
-                    "Collaborated with product managers to streamline development processes to ensure on-time projects delivery."
+                    "Integrated Devengo APIs into the payroll system, reducing the cost of early wages by 40%",
+                    "Created a service to calculate and recover money paid in advance to employees, using Ruby on Rails, which increased recurring revenue by €40K",
+                    "Mentored, onboarded and supported new employees joining the team.",
+                    "Collaborated with product managers to define project scope and deliverables.",
+                    "Implemented a service to keep track of legal procedures passing the deadline, saving €10K+ of annual fines.",
+                    "Automated the tax calculation process through a pipline of a PDF parser and data processor that achieved compliance while reducing the process time by 50%"
                 ]
             },
             {
@@ -24,10 +24,11 @@ export const experience = [
                 end: "08/2022",
                 jobTitle: "Software Engineer",
                 details: [
-                    "Maintained and optimized internal tools for managing worker payments and contracts, resulting in faster processing of thousands of sensitive information monthly.",
-                    "Spearheaded the migration of the system's frontend from Embedded Ruby to React, providing stakeholders with a more ﬂexible user experience.",
-                    "Used analytical tools like Watchdog, Rollbar and AWS CloudWatch to spot areas of improvement, optimize performance and eliminate errors.",
-                    "Collaborated with stakeholders to identify and implement permanent solutions for issues and incorporate missing features, resulting in a 60% reduction in support tickets in 1 year."
+                    "Maintained and optimized internal tools for managing worker payments and legal documents.",
+                    "Contributed in streamlining the data entry process in legal institutions’ websites using Puppeteer bots.",
+                    "Lead the migration of the system’s frontend from Embedded Ruby to React.js, reducing the average latency time from 3 seconds to 0.2 second.",
+                    "Utilized analytical tools like Watchdog, Rollbar and AWS CloudWatch to collect metrics and take data-driven decisions.",
+                    "Collaborated with stakeholders to identify and implement permanent solutions for issues and incorporate missing features, resulting in a 60% reduction in support tickets within 1 year."
                 ]
             }
         ]
@@ -44,10 +45,10 @@ export const experience = [
                 end: "08/2021",
                 jobTitle: "Software Engineer",
                 details: [
-                    "Contributed in integrating Stripe payments in a health management system using Ruby on Rails.",
-                    "Played a key role in migrating the system's frontend from Angular 1 to Reactjs.",
-                    "Developed test coverage for the system's legacy code using Rspec to maintain and safely extend the code base.",
-                    "Boosted the performance of a survey management system by discarding over 500 redundant database queries."
+                    "Contributed to integrating Stripe payments in Rectange Health using Ruby on Rails.",
+                    "Migrated the system's frontend from Angular1 to React.js, which improved UX.",
+                    "Developed test coverage for the system's legacy code using RSpec.",
+                    "Optimized a survey management system by discarding 500+ redundant database queries"
                 ]
             }
         ]
@@ -64,10 +65,10 @@ export const experience = [
                 end: "08/2020",
                 jobTitle: "Software Engineer",
                 details: [
-                    "Implemented critical features in Skoolix E-learning system, integrating Google Calendar and Google Hangout to enable virtual classes leading to a notable boost in product sales.",
-                    "Contributed in developing a management system for residential compounds using Ruby on Rails.",
-                    "Spearheaded the development of B-Rex, a virtual exhibition system, using VueJS."
-                ]
+                    "Developed a service for booking classes in Skoolix E-learning system.",
+                    "Integrated Google Calendar and Google Hangouts Apis into the system enabling virtual classes.",
+                    "Led the development of B-Rex, a virtual exhibition system, using VueJS"
+                    ]
             }
         ]
     },
