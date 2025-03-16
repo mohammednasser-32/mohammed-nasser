@@ -4,7 +4,8 @@ const elixir = "elixir";
 const react = "react";
 const vue = "vue";
 const postgresql = "postgresql";
-const mongodb = "mongodb"
+const mongodb = "mongodb";
+const java = "java";
 
 export const experience = [
     {
@@ -89,7 +90,7 @@ export const experience = [
         location: "Alexandria, Egypt",
         icon: "triumph.png",
         remote: false,
-        technologies: [ruby, vue],
+        technologies: [ruby, vue, java],
         timeSlots: [
             {
                 start: "08/2020",
