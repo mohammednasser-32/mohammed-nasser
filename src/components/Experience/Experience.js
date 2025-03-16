@@ -4,11 +4,12 @@ import './Experience.css';
 
 function Experience() {
   let images = require.context('../../assets/companies', true);
+  let techImages = require.context('../../assets/technologies', true);
 
   const renderHeader = (exp) => (
     <div className="d-flex align-items-center w-100">
       <Image className="company-icon" src={images(`./${exp.icon}`)} />
-      <div className="w-100 d-flex justify-content-between">
+      <div className="header-container">
         <div>
           <div className="exp-title">{exp.companyName}</div>
           <div className="exp-location">
@@ -16,7 +17,11 @@ function Experience() {
           <span className="notes">{exp.remote && 'Remote'}</span>
           </div>
         </div>
-        <div className="notes">{exp.notes}</div>
+        <div className="tech-icons-container">
+          {exp.technologies && exp.technologies.map((tech, i) => (
+            <Image className="tech-icon" src={techImages(`./${tech}_logo.png`)} />
+          ))}
+        </div>
       </div>
     </div>
   );

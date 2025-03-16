@@ -1,3 +1,11 @@
+const ruby = "ruby";
+const js = "js";
+const elixir = "elixir";
+const react = "react";
+const vue = "vue";
+const postgresql = "postgresql";
+const mongodb = "mongodb"
+
 export const experience = [
     {
         companyName: "Job&Talent",
@@ -5,6 +13,7 @@ export const experience = [
         location: "Madrid, Spain",
         icon: "jobandtalent.jpg",
         remote: true,
+        technologies: [ruby, react, js, elixir, postgresql],
         timeSlots: [
             {
                 start: "08/2023",
@@ -25,8 +34,8 @@ export const experience = [
                 jobTitle: "Software Engineer",
                 details: [
                     "Maintained and optimized internal tools for managing worker payments and legal documents.",
-                    "Contributed in streamlining the data entry process in legal institutions’ websites using Puppeteer bots.",
-                    "Lead the migration of the system’s frontend from Embedded Ruby to React.js, reducing the average latency time from 3 seconds to 0.2 second.",
+                    "Contributed in streamlining the data entry process in legal institutions' websites using Puppeteer bots.",
+                    "Lead the migration of the system's frontend from Embedded Ruby to React.js, reducing the average latency time from 3 seconds to 0.2 second.",
                     "Utilized analytical tools like Watchdog, Rollbar and AWS CloudWatch to collect metrics and take data-driven decisions.",
                     "Collaborated with stakeholders to identify and implement permanent solutions for issues and incorporate missing features, resulting in a 60% reduction in support tickets within 1 year."
                 ]
@@ -39,13 +48,14 @@ export const experience = [
         location: "Alexandria, Egypt",
         icon: "blink22.png",
         remote: false,
+        technologies: [ruby, react, js, mongodb],
         timeSlots: [
             {
                 start: "08/2022",
                 end: "08/2021",
                 jobTitle: "Software Engineer",
                 details: [
-                    "Contributed to integrating Stripe payments in Rectange Health using Ruby on Rails.",
+                    <span>Contributed to integrating Stripe payments in <a className="external-link" href="https://www.rectanglehealth.com/pcihipaa/" rel="noreferrer" target="_blank">Rectangle Health</a> using Ruby on Rails.</span>,
                     "Migrated the system's frontend from Angular1 to React.js, which improved UX.",
                     "Developed test coverage for the system's legacy code using RSpec.",
                     "Optimized a survey management system by discarding 500+ redundant database queries"
@@ -59,13 +69,14 @@ export const experience = [
         location: "Alexandria, Egypt",
         icon: "pharos.png",
         remote: false,
+        technologies: [ruby, js, vue, postgresql],
         timeSlots: [
             {
                 start: "08/2021",
                 end: "08/2020",
                 jobTitle: "Software Engineer",
                 details: [
-                    "Developed a service for booking classes in Skoolix E-learning system.",
+                    <span>Developed a service for booking classes in <a className="external-link" href="https://skoolix.app/" rel="noreferrer" target="_blank">Skoolix</a> E-learning system.</span>,
                     "Integrated Google Calendar and Google Hangouts Apis into the system enabling virtual classes.",
                     "Led the development of B-Rex, a virtual exhibition system, using VueJS"
                     ]
@@ -78,6 +89,7 @@ export const experience = [
         location: "Alexandria, Egypt",
         icon: "triumph.png",
         remote: false,
+        technologies: [ruby, vue],
         timeSlots: [
             {
                 start: "08/2020",
