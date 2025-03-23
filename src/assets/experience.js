@@ -30,8 +30,8 @@ export const experience = [
                 ]
             },
             {
-                start: "08/2023",
-                end: "08/2022",
+                start: "08/2022",
+                end: "08/2023",
                 jobTitle: "Software Engineer",
                 details: [
                     "Maintained and optimized internal tools for managing worker payments and legal documents.",
@@ -52,8 +52,8 @@ export const experience = [
         technologies: [ruby, react, js, mongodb],
         timeSlots: [
             {
-                start: "08/2022",
-                end: "08/2021",
+                start: "08/2021",
+                end: "08/2022",
                 jobTitle: "Software Engineer",
                 details: [
                     <span>Contributed to integrating Stripe payments in <a className="external-link" href="https://www.rectanglehealth.com/pcihipaa/" rel="noreferrer" target="_blank">Rectangle Health</a> using Ruby on Rails.</span>,
@@ -73,8 +73,8 @@ export const experience = [
         technologies: [ruby, js, vue, postgresql],
         timeSlots: [
             {
-                start: "08/2021",
-                end: "08/2020",
+                start: "08/2020",
+                end: "08/2021",
                 jobTitle: "Software Engineer",
                 details: [
                     <span>Developed a service for booking classes in <a className="external-link" href="https://skoolix.app/" rel="noreferrer" target="_blank">Skoolix</a> E-learning system.</span>,
@@ -93,8 +93,8 @@ export const experience = [
         technologies: [ruby, vue, java],
         timeSlots: [
             {
-                start: "08/2020",
-                end: "08/2019",
+                start: "08/2019",
+                end: "08/2020",
                 jobTitle: "Software Engineer",
                 details: [
                     "As part of my military service, I developed VueJS-based front-end systems for a government-owned company.",

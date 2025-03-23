@@ -28,18 +28,14 @@ function Experience() {
 
   const renderTimeSlot = (timeSlot) => (
     <div>
-      <div className="time-slot-header">
-        <Row>
-          <Col md={3}>
-            <div className="time-slot-position">{timeSlot.jobTitle}</div>
-          </Col>
-          <Col md={9} className="d-flex align-items-center">
-            <div className="time-slot-dates">
-             <i className="bi bi-calendar icon"></i>
-             {timeSlot.start} - {timeSlot.end || 'Present'}
-            </div>
-          </Col>
-        </Row>
+      <div className="time-slot-header d-flex align-items-center">
+        <div className="">
+          <div className="time-slot-position">{timeSlot.jobTitle}</div>
+        </div>
+        <div className="time-slot-dates">
+          <i className="bi bi-calendar icon"></i>
+          {timeSlot.start} - {timeSlot.end || 'Present'}
+        </div>
       </div>
       <div className="time-slot-details">
         <ul>
