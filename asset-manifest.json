@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.63722ebd.css",
+    "main.js": "/static/js/main.61bb7137.js",
+    "static/js/592.a2c3b544.chunk.js": "/static/js/592.a2c3b544.chunk.js",
+    "static/media/9.jpg": "/static/media/9.f64d0811cf7f5604aaba.jpg",
+    "static/media/15.jpg": "/static/media/15.43bfdede8bf234c4319e.jpg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/8.jpg": "/static/media/8.16e16f401efdc31a498b.jpg",
+    "static/media/12.jpeg": "/static/media/12.1f60930c706aa0742f96.jpeg",
+    "static/media/10.jpg": "/static/media/10.933a8490f4084a2322bd.jpg",
+    "static/media/1.jpg": "/static/media/1.f36641f96f8e0d9063ce.jpg",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/6.jpg": "/static/media/6.d5fedb38fd5781c07ba7.jpg",
+    "static/media/me.jpg": "/static/media/me.95c0462ee5449239a1a9.jpg",
+    "static/media/13.jpeg": "/static/media/13.5ed099f1ed00e28d35fc.jpeg",
+    "static/media/2.jpg": "/static/media/2.c50db2a1a3571545847f.jpg",
+    "static/media/11.jpeg": "/static/media/11.b39e6a2ed8e18225950e.jpeg",
+    "static/media/3.jpg": "/static/media/3.6a1978b49272c839d88c.jpg",
+    "static/media/5.jpg": "/static/media/5.ef0f75c40ff458f2413a.jpg",
+    "static/media/7.jpg": "/static/media/7.e52aa800c0673239c422.jpg",
+    "static/media/elixir_logo.png": "/static/media/elixir_logo.f07613fad42cadd83099.png",
+    "index.html": "/index.html",
+    "main.63722ebd.css.map": "/static/css/main.63722ebd.css.map",
+    "main.61bb7137.js.map": "/static/js/main.61bb7137.js.map",
+    "592.a2c3b544.chunk.js.map": "/static/js/592.a2c3b544.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63722ebd.css",
+    "static/js/main.61bb7137.js"
+  ]
+}
