@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import SlideRoutes from 'react-slide-routes';
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
